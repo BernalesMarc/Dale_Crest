@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/BernalesMarc/Dale_Crest",
+  "homepage": "https://bernalemarc.github.io/Dale_Crest",
   "name": "my-react-app",
   "private": true,
   "version": "0.0.0",
@@ -11,6 +11,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
