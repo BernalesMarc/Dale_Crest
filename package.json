@@ -1,16 +1,17 @@
 {
-  "homepage": "bernalesmarc.github.io/Dale_Crest/",
+  "homepage": "https://github.com/BernalesMarc/Dale_Crest",
   "name": "my-react-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeplpy":"npm run build",
-    "deploy":"gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -g build"
+
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
