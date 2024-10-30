@@ -1,10 +1,13 @@
 {
+  "homepage": "https://BernalesMarc.io/Dale_Crest",
   "name": "my-react-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeplpy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
